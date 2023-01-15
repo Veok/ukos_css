@@ -169,17 +169,130 @@ h1, h2, p {
 </body>
 </html>
 ```
-## Przykładowe znaczniki
+## Box model
+W CSS, termin "box model" jest używany, gdy mówimy o projektowaniu i układzie strony internetowej. Box model jest w zasadzie pudełkiem, które owija się wokół każdego elementu HTML. Składa się on z: marginesów, obramowania, paddingu i właściwej zawartości strony. 
+
+![Box model](https://media.emailonacid.com/wp-content/uploads/2018/08/Screen-Shot-2021-11-12-at-1.03.35-PM.png)
+
+Objaśnienie poszczególnych części:
+
+*Content - Zawartość boxu, w której pojawia się tekst i obrazy
+*Padding - Oczyszcza obszar wokół zawartości boxu. Wypełnienie jest przezroczyste.
+*Border - Obramowanie, które otacza padding i zawartość.
+*Margin - oczyszcza obszar poza granicą. Margines jest przezroczysty.
+
+Box model pozwala nam na dodanie obramowania wokół elementów, oraz na zdefiniowanie przestrzeni pomiędzy elementami.
+
+## Przykładowe deklaracje
 ### background-color
-### opacity
-### background-image
+Właściwość `background-color` ustawia kolor wskazanego elementu html.
+
+Przykład:
+
+```
+body {background-color: red;}
+```
 ### border-style
+Właściwość `border-style` ustawia styl obramowania elementu. 
+
+Przykład:
+
+```
+div {border-style: dotted;}
+```
+
 ### margin
+Właściwość `margin` ustawia marginesy dla elementu.
+
+Przykład:
+
+```
+p {
+  margin: 35px;
+}
+```
 ### padding
+Właściwość `padding` ustala przestrzeń pomiędzy jego zawartością a obramowaniem.
+
+Przykład:
+
+```
+p {
+  padding: 35px;
+}
+```
+
 ### height
+Właściwość `height` określa wysokość elementu.
+
+Przykład:
+
+```
+p {
+  height: auto;
+}
+
+h1 {
+  height: 50px;
+}
+```
 ### width
+Właściwość `width` określa szerokość elementu.
+
+Przykład:
+
+```
+p {
+  width: auto;
+}
+
+h1 {
+  width: 50px;
+}
+```
 ### float
-### box model - div
+Właściwość `float` określa, czy element powinien być umieszczony na lewo, prawo lub wcale.
+
+Przykład:
+
+```
+img  {
+  float: right;
+}
+```
+
+### div
+Włsciwość `<div>` jest ogólnym kontenerem na zawortość strony HTML. Pozwala on na zgrupowaniu dowolnej ilości elementów HTMl wewnętrz jego ciała i na nadanie wspólnych właściwości stylu.
+
+Przykład:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</body>
+</html>
+
+```
+
 ## Zadanie
 Z poprzednich zajęć wystuluj index.html. Dla stylowania nagłówka użyj inline styli. Dla pozostałych stwórz plik styles.css i zaimportuj go do pliku HTML. Użyj co najmniej jednego id selectora oraz class selectora. Wystyluj każdy element:
 1. Strona powinna mieć swój własny kolor
