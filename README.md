@@ -294,24 +294,18 @@ div {
 ```
 
 ## Zadanie
-Z poprzednich zajęć wystuluj index.html. Dla stylowania nagłówka użyj inline styli. Dla pozostałych stwórz plik styles.css i zaimportuj go do pliku HTML. Użyj co najmniej jednego id selectora oraz class selectora. Wystyluj każdy element:
-1. Strona powinna mieć swój własny kolor
-2. Krótka notka o sobie powinna być opatrzona divem i wystylowana:
-    1. wlasny kolor
-    2. bold
-    3. italic
-    4. margin left na 0.5
-    5. padding bottom na 0.8
-    6. float na left
-3. Tabela:
-    1. każdy wiersz powinien mieć inny kolor
-    2. użyć border-style
-    3. width na 50%
-4. Lista hobby:
-    1. style: upper-roman https://www.w3schools.com/css/css_list.asp
-5. Formularz:
-    1. Opis boldem
-    2. Wystylować przycisk: kolor oraz border
+Do wykonania zadania będzie potrzebny plik `index.html`, który powinien zostać wykonany podczas poprzednich laboratoriów. Twoim zadaniem jest:
+1. Wystylizować użyty nagłówek za pomocą stylów `inline`
+2. Stworzyć plik `styles.css` i zaimportować go do pliku `index.html`
+3. Wystylizować pozostałe elementy pliku `index.html` używając co najmniej jednego ID selectora oraz class selectora. Style powinny zostać zdefiniowane w pliku `styles.css`. Podane niżej elementy strony powinny zostać wystylowane według poniższych wytycznych:
+* strona powinna być koloru szarego
+* krótka notka o sobie powinna zostać opatrzona klauzulą `div`, którego style powinny zostać ustawione według poniższej reguły:
+kolor tła - czerwony, tekst powinien być pogrubiony, czcionka powinna być pochylona, margines z lewej strony powinien mieć wartość 0.5, padding od dołu powinien mieć wartość 0.5, element powinien być ustalony z lewej strony 
+* każdy wiersz tabeli powinien być innego koloru. Należy również wystylować ramkę tabeli oraz ustawić jej szerokość na 50%
+* lista z twoim hobby powinna być wystylowana według stylu [upper-roman](https://www.w3schools.com/css/css_list.asp)
+* przycisk formularza do wysyłania maila, powinien mieć koloru `#0066ff` oraz mieć wystylowaną ramkę
+
+Wykonane zadanie zacommituj i wypushuj do swojego repozytorium. Po wykonaniu zadania, poproś prowadzącego o sprawdzenie zadania.
 
 ---
 
