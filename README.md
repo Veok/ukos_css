@@ -300,10 +300,11 @@ Do wykonania zadania będzie potrzebny plik `index.html`, który powinien zosta�
 3. Wystylizować pozostałe elementy pliku `index.html` używając co najmniej jednego ID selectora oraz class selectora. Style powinny zostać zdefiniowane w pliku `styles.css`. Podane niżej elementy strony powinny zostać wystylowane według poniższych wytycznych:
 * strona powinna być koloru szarego
 * krótka notka o sobie powinna zostać opatrzona klauzulą `div`, którego style powinny zostać ustawione według poniższej reguły:
-kolor tła - czerwony, tekst powinien być pogrubiony, czcionka powinna być pochylona, margines z lewej strony powinien mieć wartość 0.5, padding od dołu powinien mieć wartość 0.5, element powinien być ustalony z lewej strony 
+kolor tła - czerwony, tekst powinien być pogrubiony, czcionka powinna być pochylona, margines z lewej strony powinien mieć wartość 2px, padding od dołu powinien mieć wartość 2px, element powinien być ustalony z lewej strony 
 * każdy wiersz tabeli powinien być innego koloru. Należy również wystylować ramkę tabeli oraz ustawić jej szerokość na 50%
 * lista z twoim hobby powinna być wystylowana według stylu [upper-roman](https://www.w3schools.com/css/css_list.asp)
 * przycisk formularza do wysyłania maila, powinien mieć koloru `#0066ff` oraz mieć wystylowaną ramkę
+
 
 Wykonane zadanie zacommituj i wypushuj do swojego repozytorium. Po wykonaniu zadania, poproś prowadzącego o sprawdzenie zadania.
 
